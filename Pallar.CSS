@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dual Resume - Erika & Maricris</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #d63384;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .resume {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            flex: 1;
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f8a6c2;
+        }
+        .header img {
+            border-radius: 50%;
+            border: 3px solid #d63384;
+        }
+        h1 {
+            color: #d63384;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #d63384;
+            font-weight: bold;
+        }
+        .section-title {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #d63384;
+            border-bottom: 2px solid #d63384;
+            padding-bottom: 5px;
+        }
+        .divider {
+            margin: 15px 0;
+            border-top: 1px solid #f8a6c2;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-title">Erika Bicoy & Maricris Pallar</div>
+
+    <div class="container">
+        
+        <!-- Resume 1: Erika Bicoy -->
+        <div class="resume">
+            <div class="header">
+                <img src="ss.jpg" width="100px" height="100px">
+                <h1>Erika Bicoy</h1>
+            </div>
+
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:erikabicoy@gmail.com">erikabicoy@gmail.com</a></li>
+                <li><strong>Phone No:</strong> 09561234567</li>
+                <li><strong>GitHub:</strong> <a href="#">ErikaBicoy</a></li>
+                <li><strong>Facebook:</strong> <a href="#">Erika Bicoy</a></li>
+                <li><strong>Address:</strong> Pines, Oroquieta City</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Education:</div>
+            <ul>
+                <li><strong>Degree:</strong> BS in Information Technology</li>
+                <li><strong>Institution:</strong> USTP</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Skills:</div>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Communication, Problem-solving</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Personal Data:</div>
+            <ul>
+                <li><strong>Age:</strong> 22</li>
+                <li><strong>Date of Birth:</strong> December 9, 2002</li>
+                <li><strong>Citizenship:</strong> Filipino</li>
+                <li><strong>Civil Status:</strong> Single</li>
+                <li><strong>Sex:</strong> Female</li>
+                <li><strong>Languages Known:</strong> Tagalog, Cebuano</li>
+                <li><strong>Height:</strong> 156 cm</li>
+                <li><strong>Weight:</strong> 40 kg</li>
+            </ul>
+        
+        </div>
+
+        <!-- Resume 2: Maricris Pallar -->
+        <div class="resume">
+            <div class="header">
+                <img src="CSS.jpg" width="100px" height="100px">
+                <h1>Maricris Pallar</h1>
+            </div>
+
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:maricrispallar17@gmail.com">maricrispallar17@gmail.com</a></li>
+                <li><strong>Phone No:</strong> 09700813967</li>
+                <li><strong>GitHub:</strong> <a href="#">PallarM</a></li>
+                <li><strong>Facebook:</strong> <a href="#">Maricris Pallar</a></li>
+                <li><strong>Address:</strong> Pines, Oroquieta City</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Education:</div>
+            <ul>
+                <li><strong>Degree:</strong> Bachelor of Science in Information Technology</li>
+                <li><strong>Institution:</strong> University of Science and Technology of Southern Philippines (USTP)</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Skills:</div>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Programming Languages: HTML, CSS</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <div class="section-title">Personal Data:</div>
+            <ul>
+                <li><strong>Age:</strong> 19</li>
+                <li><strong>Date of Birth:</strong> May 31, 2005</li>
+                <li><strong>Citizenship:</strong> Filipino</li>
+                <li><strong>Civil Status:</strong> Single</li>
+                <li><strong>Sex:</strong> Female</li>
+                <li><strong>Languages Known:</strong> Tagalog, Cebuano</li>
+                <li><strong>Height:</strong> 156 cm</li>
+                <li><strong>Weight:</strong> 56 kg</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
