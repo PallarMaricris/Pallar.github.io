@@ -1,0 +1,154 @@
+
+
+  main{
+    width:100%;
+    background-position: center;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(desktop/pepito/download/der.jpeg);
+    background-size:cover;
+  }
+  .navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+  }
+  .icon{
+    width:200px;
+    float:left;
+    height:70px;
+  }
+  .logo{
+    color:violet;
+    font-size:35px;
+    font-family:Arial;
+    padding-left:20px;
+    float:left;
+    padding-top:10px;
+  }
+  .par{
+    color:violet;
+    font-size:35px;
+    font-family:Arial;
+    padding-left:20px;
+    float:left;
+  }
+  .menu{
+    width:400px;
+    float:left;
+    height:70px;
+  }
+  ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top:27px;
+    font-size:14px;
+  }
+  ul li a{
+    text-decoration: none;
+    color:orange;
+    font-family: Arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+  }
+  ul li a:hover{
+    color:blue;
+  }
+  .search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+  }
+  .srch{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    color:brown;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .btn{
+    width:100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid black ;
+    margin-top: 13px;
+    color:green;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+  }
+  .btn:focus{
+    outline: none;
+  }
+  .srch:focus{
+    outline:none;
+  }
+  
+  .form {
+    width:200px;
+    height: 350px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position:absolute;
+    top:200px;
+    left:600px;
+    border-radius: 10px;
+    padding:25px;
+  }
+  .form h2{
+    width:200px;
+    font-family:sans-serif;
+    text-align:center;
+    color:yellow;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin:2px;
+    padding:px;
+  }
+  .form input{
+    width:200px;
+    height: 35px;
+    background: transparient;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid gray;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    color:brown;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .form input:focus{
+    outline: none;
+  }
+  ::placeholder{
+    color:skyblue;
+    font-family: Arial;
+  }
+  
+  .btnn{
+    width:210px;
+    height: 40px;
+    background: yellowgreen;
+    border:none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+  }
